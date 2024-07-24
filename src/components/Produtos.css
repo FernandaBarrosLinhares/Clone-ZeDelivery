@@ -1,0 +1,31 @@
+.components-produtos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escolha-produtos {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 400px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.produtos li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-left: 30px;
+    align-items: center;
+    padding: 10px;
+}
+
+.produtos li img {
+    width: 120px;
+    height: 120px;
+}
