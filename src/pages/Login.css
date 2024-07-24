@@ -1,0 +1,87 @@
+.p-login{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-size:20 px;
+    padding-top: 50px;
+   
+}
+
+.f-login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 340px;
+    height: 500px;
+}
+
+.btn-facebook{
+    border: 1px solid #CCC;
+    border-radius: 20px;
+    border-color: #3458a4;
+    background-color: #3458a4;
+    font-weight: 700;
+    height: 48px;
+    width: 100%;
+    color:#fff;
+    margin-bottom: 8px;
+    
+
+
+}
+
+.btn-apple{
+    border: 1px solid #CCC;
+    border-radius: 20px;
+    border-color: #0e0e0c;
+    background-color: #0e0e0c;
+    color: #CCC;
+    font-weight: 700;
+    height: 48px;
+    width: 100%;
+    
+}
+
+
+.btn-entrar{
+    border: 2px solid #CCC;
+    border-radius: 20px;
+    border-color: #FFCC00;
+    background-color: #FFCC00;
+    font-weight: 700;
+    height: 48px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 190px;
+    gap:10px;
+    margin-top: 20px;
+}
+
+form input{
+    color: rgba(0, 0,0, 0.5);
+    font-size: 14px;
+    width: 95%;
+    height: 56px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+img{
+    margin-top: 10px;
+    width: 195px;
+    height: 56px;
+}
+
+a{
+    color:#f39000
+}
+
