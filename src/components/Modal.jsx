@@ -1,29 +1,24 @@
-// s
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import './Modal.css'
 
-function ModalComponent(){
-    return(
-        <div
-        className="modal show"
-        style={{ display: 'block', position: 'initial' }}
-      >
-        <Modal.Dialog>
-          <Modal.Header closeButton>
-            <Modal.Title>Modal title</Modal.Title>
-          </Modal.Header>
+
+const Modal = ({ show, onClose, onConfirm }) => {
+  if (!show) {
+    return null;
+  }
   
-          <Modal.Body>
-            <p>Modal body text goes here.</p>
-          </Modal.Body>
-  
-          <Modal.Footer>
-            <Button variant="secondary">Close</Button>
-            <Button variant="primary">Save changes</Button>
-          </Modal.Footer>
-        </Modal.Dialog>
+
+  return (
+    <div className="modal-overlay">
+      <div className="modal-content">
+        <img src="https://www.ze.delivery/_next/image?url=https%3A%2F%2Fcourier-images-web.imgix.net%2Fstatic%2Fimg%2Fsmall-logo.png%3Fauto%3Dcompress%2Cformat%26fit%3Dmax%26w%3D83%26h%3D83%26dpr%3D2%26fm%3Dpng&w=96&q=75" alt="logo Zé delivery" />
+        <h2>Você tem mais de 18 anos?</h2>
+        <div className="modal-btn">
+          <button className='modal-btnY' onClick={onConfirm}>Sim</button>
+          <button className='modal-btnN' onClick={onClose}>Não</button>
+        </div>
       </div>
-    )
-}
+    </div>
+  );
+};
 
-export default ModalComponent
+export default Modal
