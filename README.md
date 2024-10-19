@@ -2,7 +2,9 @@
 
 Clone pagína https://www.ze.delivery/
 
-<!-- <img alt="Tela1" src=""> -->
+<img alt="Modal de idade" src="src/assets/modal.png">
+<img alt="Home" src="src/assets/home.png">
+<img alt="Login" src="src/assets/login.png">
 
 
 ### Exercício curso Futuro DEV, semana 08, módulo 2
